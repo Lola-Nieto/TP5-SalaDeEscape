@@ -24,3 +24,10 @@ body {
   font-family: "FRIENDS";
   src: url('../fonts/GABRWFFR.TTF');
 }
+#Home {
+  background-image: "~/img/DeptoMonica.jpg";
+}
+#CentralPerk{
+  background-image: "~/img/CentralPerk.jpg";
+
+}

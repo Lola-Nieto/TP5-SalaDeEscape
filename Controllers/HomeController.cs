@@ -17,7 +17,14 @@ public class HomeController : Controller
     {
         return View();
     }
-
+public IActionResult CentralPerk()
+    {
+        return View();
+    }
+    public IActionResult DeptoMonica()
+    {
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();

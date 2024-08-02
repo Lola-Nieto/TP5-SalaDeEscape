@@ -19,7 +19,7 @@ Pollo con anteojos + Sillón * Guitarra de Phoebe (3)= Núm de Mónica
 
 Cuánto vale la guitarra de Phoebe?
 
-PISTA DE ESTE: Why God Why hay que poner la edad que Joey estaba cumpliendo cuando dijo la frase
+PISTA DE ESTE: ¿Qué número de departamento es el que tiene el cuadro amarillo con puerta violeta?
 
 Paso 2: Pudimos entrar al depto de las chicas, sabemos que por si se la olvida Rachel tiene un papel con la clave para abrir la puerta de Central Perk. Sin embargo, vemos que está encriptado: 
 "La clave de la sala de Central Perk: 
