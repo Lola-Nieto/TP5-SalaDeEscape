@@ -31,3 +31,12 @@ body {
   background-image: "~/img/CentralPerk.jpg";
 
 }
+.Submit{
+  
+  background-color:rgb(106, 51, 158);
+  color: rgb(221, 221, 81);
+  border:0;
+  border-radius: 2%;
+  padding:2%;
+
+}

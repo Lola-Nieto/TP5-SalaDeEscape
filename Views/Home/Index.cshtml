@@ -1,65 +1,33 @@
 ﻿@{
-    ViewData["Title"] = "Sala de Escape FRIENDS";
+    ViewData["Title"] = "Intro";
     <link rel="stylesheet" href="~/~/css/site.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
 
 }
 <body id="Home">
 
-<div class="text-center">
+
 <p>
 Monica y Rachel para recuperar su depto tenían que mover todo de un lugar a otro. Para eso necesitan ayuda. El señor Treeger, que es el portero, ofrece ayudarlas, 
 pero tienen que traerle un café. Central Perk está cerrado, pero Rachel dejó su llave en el depto de los chicos. 
 Las vamos a ayudar.
 </p>
-</div>
-@if(instancia=="intro"){
+
+ <h4>
+ Dinámica del juego
+ </h4>
+
  <p>
-Dinámica del juego: hay hasta tres pistas, una pista por paso máximo. 
+  Hay hasta tres pistas, una pista por paso máximo. 
 </p>
-}
-@if(instancia=="intro"){
- <p>
-Como no tenemos la llave del depto de las chicas, resolvemos este juego: 
 
-<div class="row row-cols-3">   
-              <div class="col">                
-                <p>Edad que Phoebe realmente tenía</p>
-                <img src = "~/img/cuadroPuerta.jpg" />
-                <img src = "~/img/polloAnteojos.jpg" />
-            </div>
-            <div class="col ">
-            <img src = "~/img/why god why!!.jpg"  />
-            <img src = "~/img/carta.jpg"  />
-            <img src = "~/img/sillón.jpg"  />
-              </div>
-              <div class="col">
-                <img src = "img/polloAteojos.jpg" />
-                <img src = "img/sillón.jpg" />
-                <p>Número de Monica</p>
-              </div>
-            </div>
-
-Cuánto vale la guitarra de Phoebe?</p>
-<form method="post" action='@Url.Action("Index")'> 
-Respuesta: <input required type="number" name="rta" min="0" placeholder="Escribí tu respuesta aquí" > <br>
+<form method="post" action='@Url.Action("Comenzar")'> 
+<input required type="submit" class="Submit" value="Siguiente">
 </form> 
-}
-<form method="post" action='@Url.Action("Index")'> 
-<p> <input type="submit" class="Submit" value="Siguiente" /></p>
-</form>
 
 
 
 
-
-
-<div class="botón">
-Siguiente
-</div> 
-
-
-
-
-<footer> <p>Hecho por Lola Nieto.</p> </footer>
 
 </body>
