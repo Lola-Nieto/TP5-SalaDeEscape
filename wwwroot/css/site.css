@@ -19,16 +19,19 @@ html {
 
 body {
   margin-bottom: 60px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 @font-face {
   font-family: "FRIENDS";
   src: url('../fonts/GABRWFFR.TTF');
 }
-#Home {
-  background-image: "~/img/DeptoMonica.jpg";
-}
-#CentralPerk{
+
+.CentralPerk{
   background-image: "~/img/CentralPerk.jpg";
+
+}
+.DeptoMonica{
+  background-image: "~/img/DeptoMonica.jpg";
 
 }
 .Submit{
@@ -39,4 +42,10 @@ body {
   border-radius: 2%;
   padding:2%;
 
+}
+.JuegosMentales{
+
+}
+.password{
+  
 }

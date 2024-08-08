@@ -4,11 +4,11 @@ namespace TP5_SalaDeEscape_Nieto.Models;
 
 public static class Escape
 {
-    private static string[] incogitasSalas ;
+    private static string[] incogitasSalas = new string [5];
     private static int estadoJuego = 1;
     private static void InicializarJuego(){
         //Inicializa el juego con el array de incógnitas correctas ??
-        incognitasSalas =  new string [] {"3", "RJP", "331", "Smelly Cat - Ken Adams - Janice - Joey - Joey - Ursula", "Monica"};
+        incognitasSalas =   {"3", "RJP", "331", "Smelly Cat - Ken Adams - Janice - Joey - Joey - Ursula", "Monica"};
     }
     public static int GetEstadoJuego(){
         return estadoJuego;

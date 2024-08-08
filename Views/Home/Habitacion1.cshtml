@@ -3,18 +3,16 @@
     <link rel="stylesheet" href="~/~/css/site.css">
 
 }
-<body id="CentralPerk">
+<body class="DeptoMonica">
 
-
-
-
+<div class="task">
  <p>
 Como no tenemos la llave del depto de las chicas, resolvemos este juego: 
 </p>
 
 <div class="row row-cols-3">   
               <div class="col">                
-                <p>Edad que Phoebe realmente tenía</p>
+                <p class="juegosMentales">Edad que Phoebe realmente tenía</p>
                 <img src = "~/img/cuadroPuerta.jpg" />
                 <img src = "~/img/polloAnteojos.jpg" />
             </div>
@@ -26,20 +24,21 @@ Como no tenemos la llave del depto de las chicas, resolvemos este juego:
               <div class="col">
                 <img src = "img/polloAteojos.jpg" />
                 <img src = "img/sillón.jpg" />
-                <p>Número de Monica</p>
+                <p class="juegosMentales">Número de Monica</p>
               </div>
             </div>
 
-Cuánto vale la guitarra de Phoebe?</p>
+<p> Cuánto vale la guitarra de Phoebe?</p>
 
 
 
 <form method="post" action='@Url.Action("Habitacion")'> 
      <input type="hidden" name="sala" value="1" >
-
-<input required type="text" name="clave"  placeholder="Escribí tu respuesta aquí" > 
+<input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
 <input type="submit" class="Submit" value="Siguiente" >
 </form> 
+
+</div>
 
 
 
