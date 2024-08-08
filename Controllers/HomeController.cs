@@ -46,13 +46,15 @@ public IActionResult Comenzar()
         if(estadoJuego == 6){
                 return RedirectToAction("Victoria");
         } else{
+            
         return View("Habitacion" + estadoJuego);
+
         }
          
        
     } else{
-        return View();
         ViewBag.Error = "La respuesta es incorrecta";
+        return View("Habitacion" + estadoJuego);
     }
     }
     public IActionResult Victoria()

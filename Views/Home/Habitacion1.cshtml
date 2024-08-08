@@ -1,6 +1,9 @@
 @{
     ViewData["Title"] = "Paso 1 ";
     <link rel="stylesheet" href="~/~/css/site.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    var mensaje = ViewBag.Error ;
+
 
 }
 <body class="DeptoMonica">
@@ -30,11 +33,18 @@ Como no tenemos la llave del depto de las chicas, resolvemos este juego:
 
 <p> Cuánto vale la guitarra de Phoebe?</p>
 
+<button onclick="show('¿Qué número de departamento es el que tiene el cuadro amarillo con puerta violeta?')">Pista 1</button>
+<button onclick="show('¿Cuántas hojas tenía la carta?')">Pista 2</button>
+
 
 
 <form method="post" action='@Url.Action("Habitacion")'> 
      <input type="hidden" name="sala" value="1" >
 <input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
+@if(mensaje != null){
+<p class = error> @mensaje </p>
+}
+ <br>
 <input type="submit" class="Submit" value="Siguiente" >
 </form> 
 

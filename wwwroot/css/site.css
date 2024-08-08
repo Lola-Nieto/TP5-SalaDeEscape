@@ -27,11 +27,11 @@ body {
 }
 
 .CentralPerk{
-  background-image: "~/img/CentralPerk.jpg";
+  background-image: url(~/img/CentralPerk.jpg) !important ;
 
 }
 .DeptoMonica{
-  background-image: "~/img/DeptoMonica.jpg";
+  background-image: url(~/img/DeptoMonica.jpg) !important  ;
 
 }
 .Submit{
@@ -41,11 +41,27 @@ body {
   border:0;
   border-radius: 2%;
   padding:2%;
+  font-weight: bold;
 
+
+}
+.Submit:hover{
+  text-decoration: none;
 }
 .JuegosMentales{
 
 }
 .password{
   
+}
+img{
+  height: 20%;
+}
+.task{
+  background-color:rgb(221, 180, 130);
+  opacity: 50;
+  margin: 10%;
+  padding: 5%;
+  border-radius: 5%;
+
 }
