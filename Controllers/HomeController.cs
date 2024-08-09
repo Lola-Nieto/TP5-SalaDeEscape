@@ -73,6 +73,10 @@ public IActionResult Comenzar()
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
-
+//No pone imagen de fondo 
+//No pone la imagen de juegos mentales
+//Cambiarle el color a links para que no se vean subrayados y azules
+//No entra a las pistas (me gustaria que haya un limite de pistas que se pueden usar)
+//No deja seguir de sala uno a dos porque el vector con rtas correctas nunca se inicializa
 
 
