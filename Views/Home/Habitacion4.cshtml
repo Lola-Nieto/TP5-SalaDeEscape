@@ -5,3 +5,38 @@
     var mensaje = ViewBag.Error ;
 
 }
+<body class="CentralPerk">
+<div class="task">
+<p> 
+Gunther llega y nos descubre. Piensa que somos
+ intrusos así que hay que probarle que conocemos a Rachel, Monica, Phoebe, Chandler, Joey y Ross. Así que tenemos que contestar un cuestionario para ver si los conocemos... 
+</p>
+<div> 
+<h3 class="AcertijosRoom"> La canción icónica de Phoebe  </h3>
+<h3 class="AcertijosRoom"> El nombre que usaba Joey cuando conocía a chicas  </h3>
+<h3 class="AcertijosRoom"> El nombre de la persona que dice la siguiente frase: "Oh My God!"  </h3>
+<h3 class="AcertijosRoom">  ¿Quién dice "How you doin'?" </h3>
+<h3 class="AcertijosRoom"> ¿Cuántas hermanas tiene Joey? </h3>
+<h3 class="AcertijosRoom"> Nombre de la hermana de Phoebe  </h3>
+</div>
+
+<p> Formato de respuesta: Escribir la respuesta a cada uno con un guión en el medio y dejando espacios. Si son dos palabras dejar un espacio entre ellas. Ejemplo: RESPUESTA1 - RTA2 - RTA 3 </p>
+
+<button onclick="alert('..., ..., what are they feeding you?')">Pista 1</button>
+<button onclick="alert(<img src="~/img/HermanasTribbiani.jpg"> )">Pista 2</button>
+
+
+
+<form method="post" action='@Url.Action("Habitacion")'> 
+     <input type="hidden" name="sala" value="4" >
+<input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
+@if(mensaje != null){
+<p class = error> @mensaje </p>
+}
+ <br>
+<input type="submit" class="Submit" value="Siguiente" >
+</form> 
+
+</div>
+
+</body> 

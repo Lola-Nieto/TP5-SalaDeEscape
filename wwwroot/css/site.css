@@ -41,7 +41,12 @@ body {
 
 
 }
+
 .Submit:hover{
+  text-decoration: none;
+
+}
+a{
   text-decoration: none;
 }
 .JuegosMentales{
@@ -54,7 +59,7 @@ img{
   height: 20%;
 }
 .task{
-  background-color:rgb(221, 180, 130);
+  background-color:rgb(226, 226, 226);
   opacity: 50;
   margin: 10%;
   padding: 5%;

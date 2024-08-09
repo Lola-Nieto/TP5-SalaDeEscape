@@ -66,6 +66,10 @@ public IActionResult Comenzar()
     {
         return View();
     }
+     public IActionResult Creditos()
+    {
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
@@ -74,7 +78,7 @@ public IActionResult Comenzar()
     }
 }
 //No pone imagen de fondo 
-//No pone la imagen de juegos mentales
+//No pone la imagen de juegos mentales --> no está bien el camino?
 //Cambiarle el color a links para que no se vean subrayados y azules
 //No entra a las pistas (me gustaria que haya un limite de pistas que se pueden usar)
 //No deja seguir de sala uno a dos porque el vector con rtas correctas nunca se inicializa

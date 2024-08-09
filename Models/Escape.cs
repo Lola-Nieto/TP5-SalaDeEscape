@@ -12,7 +12,7 @@ public static class Escape
         incognitasSalas.Add("3");
         incognitasSalas.Add("RJP");
         incognitasSalas.Add("331");
-        incognitasSalas.Add("SMELLY CAT - KEN ADAMS - JANICE - JOEY - JOEY - URSULA");
+        incognitasSalas.Add("SMELLY CAT - KEN ADAMS - JANICE - JOEY - SIETE - URSULA");
         incognitasSalas.Add("MONICA");
 
     }
@@ -21,9 +21,9 @@ public static class Escape
     }
     public static bool ResolverSala(int Sala, string Incognita){
         bool ret = false;
-        if(incognitasSalas == null){
+        if(incognitasSalas.Count == 0){
             InicializarJuego();
-        } //IncognitasSalas == 0 --> Pq?
+        } //IncognitasSalas == 0 --> Pq si lo estoy inicializando arriba?
         if(Sala == estadoJuego && Incognita.Trim().ToUpper().Equals(incognitasSalas[estadoJuego-1])){ 
             ret = true;
             estadoJuego++;

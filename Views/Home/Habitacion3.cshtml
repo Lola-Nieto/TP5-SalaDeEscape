@@ -13,24 +13,39 @@ El código se crea a partir de los números que se obtienen como respuesta de ca
 </p>
 <div> 
 <h3> PRIMERO: </h3>
-<h3 class = "VoF"> 1. Cada vez que va al dentista, alguien muere // tuvo a los trillizos de su hermano // cuidó a ben cuando Ross estaba en el trbaajo </h3>
+<h3 class = "VoF"> 1. Cada vez que va al dentista, alguien muere  </h3>
 <h3 class = "VoF"> 2. Tuvo a los trillizos de su hermano  </h3>
 <h3 class = "VoF"> 3. Cuidó a Ben cuando Ross estaba en el trabajo </h3>
 </div>
 
 <div>
 <h3> SEGUNDO </h3>
-<h3> 1. Se casó con un patinador de hielo que era gay </h3>
-<h3> 2.  No cree en la gravedad // Trabajó como policía </h3>
-<h3> 3. Trabajó como policía </h3>
+<h3 class = "VoF"> 1. Se casó con un patinador de hielo que era gay </h3>
+<h3 class = "VoF"> 2.  No cree en la gravedad  </h3>
+<h3 class = "VoF"> 3. Trabajó como policía </h3>
 </div>
 
 <div>
 <h3> TERCERO </h3>
-<h3> 1. Salió con un pintor profesional  </h3>
-<h3> 2. Creía que su mamá era una gata</h3>
-<h3> 3. Tiene una hermana gemela  </h3>
+<h3 class = "VoF"> 1. Salió con un pintor profesional  </h3>
+<h3 class = "VoF"> 2. Creía que su mamá era una gata</h3>
+<h3 class = "VoF"> 3. Tiene una hermana gemela  </h3>
 </div>
+
+
+<button onclick="alert('Para la segunda: Phoebe tuvo una discusión con Ross por esto')">Pista 1</button>
+<button onclick="alert('Para la tercera: Phoebe cree en la reencarnación')">Pista 2</button>
+
+
+<form method="post" action='@Url.Action("Habitacion")'> 
+     <input type="hidden" name="sala" value="3" >
+<input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
+@if(mensaje != null){
+<p class = error> @mensaje </p>
+}
+ <br>
+<input type="submit" class="Submit" value="Siguiente" >
+</form> 
 
 </div>
 

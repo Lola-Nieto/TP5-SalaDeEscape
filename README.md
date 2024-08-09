@@ -53,8 +53,8 @@ El nombre de la persona que dice la siguiente frase: "Oh My God!"
 Rta: Janice
 Quien dice "How you doin'?"
 Rta: Joey
-Quien tiene siete hermanas? 
-RTa: Joey
+¿Cuántas hermanas tiene Joey?
+RTa: Siete
 Nombre de la hermana de Phoebe 
 Rta: Ursula
 
