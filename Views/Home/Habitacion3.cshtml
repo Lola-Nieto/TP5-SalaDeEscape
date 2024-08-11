@@ -5,6 +5,8 @@
     var mensaje = ViewBag.Error ;
 
 }
+
+<html lang="es">
 <body class="CentralPerk">
 <div class="task">
 <p> 
@@ -13,23 +15,30 @@ El código se crea a partir de los números que se obtienen como respuesta de ca
 </p>
 <div> 
 <h3> PRIMERO: </h3>
-<h3 class = "VoF"> 1. Cada vez que va al dentista, alguien muere  </h3>
-<h3 class = "VoF"> 2. Tuvo a los trillizos de su hermano  </h3>
-<h3 class = "VoF"> 3. Cuidó a Ben cuando Ross estaba en el trabajo </h3>
+<ol>
+    <li> Cada vez que va al dentista, alguien muere  </li>
+    <li>Tuvo a los trillizos de su hermano </li>
+    <li>Cuidó a Ben cuando Ross estaba en el trabajo</li>
+</ol>
+
 </div>
 
 <div>
-<h3> SEGUNDO </h3>
-<h3 class = "VoF"> 1. Se casó con un patinador de hielo que era gay </h3>
-<h3 class = "VoF"> 2.  No cree en la gravedad  </h3>
-<h3 class = "VoF"> 3. Trabajó como policía </h3>
+<h3> SEGUNDO: </h3>
+<ol>
+    <li> Se casó con un patinador de hielo que era gay </li>
+    <li>No cree en la gravedad</li>
+    <li>Trabajó como policía</li>
+</ol>
 </div>
 
 <div>
-<h3> TERCERO </h3>
-<h3 class = "VoF"> 1. Salió con un pintor profesional  </h3>
-<h3 class = "VoF"> 2. Creía que su mamá era una gata</h3>
-<h3 class = "VoF"> 3. Tiene una hermana gemela  </h3>
+<h3> TERCERO: </h3>
+<ol>
+    <li>  Salió con un pintor profesional </li>
+    <li>Creía que su mamá era una gata</li>
+    <li>Tiene una hermana gemela </li>
+</ol>
 </div>
 
 
@@ -41,7 +50,7 @@ El código se crea a partir de los números que se obtienen como respuesta de ca
      <input type="hidden" name="sala" value="3" >
 <input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
 @if(mensaje != null){
-<p class = error> @mensaje </p>
+<p class = "error"> @mensaje </p>
 }
  <br>
 <input type="submit" class="Submit" value="Siguiente" >
@@ -50,3 +59,4 @@ El código se crea a partir de los números que se obtienen como respuesta de ca
 </div>
 
 </body> 
+</html>

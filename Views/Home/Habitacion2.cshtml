@@ -5,6 +5,8 @@
     var mensaje = ViewBag.Error ;
 
 }
+
+<html lang="es">
 <body class="DeptoMonica">
 <div class="task">
 <p>
@@ -21,7 +23,7 @@ puerta de Central Perk. Sin embargo, vemos que está encriptado:
      <input type="hidden" name="sala" value="2" >
 <input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
 @if(mensaje != null){
-<p class = error> @mensaje </p>
+<p class = "error"> @mensaje </p>
 }
  <br>
 <input type="submit" class="Submit" value="Siguiente" >
@@ -30,3 +32,4 @@ puerta de Central Perk. Sin embargo, vemos que está encriptado:
 
 
 </body> 
+</html>

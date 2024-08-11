@@ -5,6 +5,8 @@
     var mensaje = ViewBag.Error ;
 
 }
+
+<html lang="es">
 <body class="CentralPerk">
 <div class="task">
 <p> 
@@ -23,7 +25,7 @@ Gunther llega y nos descubre. Piensa que somos
 <p> Formato de respuesta: Escribir la respuesta a cada uno con un guión en el medio y dejando espacios. Si son dos palabras dejar un espacio entre ellas. Ejemplo: RESPUESTA1 - RTA2 - RTA 3 </p>
 
 <button onclick="alert('..., ..., what are they feeding you?')">Pista 1</button>
-<button onclick="alert(<img src="~/img/HermanasTribbiani.jpg"> )">Pista 2</button>
+<button onclick="alert(<img src="~/img/HermanasTribbiani.jpg"> Pista 2</button>
 
 
 
@@ -31,7 +33,7 @@ Gunther llega y nos descubre. Piensa que somos
      <input type="hidden" name="sala" value="4" >
 <input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
 @if(mensaje != null){
-<p class = error> @mensaje </p>
+<p class = "error"> @mensaje </p>
 }
  <br>
 <input type="submit" class="Submit" value="Siguiente" >
@@ -40,3 +42,4 @@ Gunther llega y nos descubre. Piensa que somos
 </div>
 
 </body> 
+</html>

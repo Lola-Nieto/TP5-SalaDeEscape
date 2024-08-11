@@ -45,9 +45,12 @@ button.accept-policy {
   src: url('../fonts/Lemon Shake Shake.otf');
 }
 
-.FRIENDS{
- font-family: FRIENDS;
+h1{
+  font-family: "textosEspeciales";
+  font-size: 90%;
+
 }
-.Titulos{
-  font-family: textosEspeciales;
+h2{
+  font-family: "FRIENDS";
+  font-size: 100%;
 }

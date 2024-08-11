@@ -7,16 +7,22 @@
 
 
 }
-<body class="DeptoMonica">
+<html lang="es">
+
+<body class="pasillo">
 
 <div class="task">
+    <scroll-container>
+
  <p>
 Como no tenemos la llave del depto de las chicas, resolvemos este juego: 
 </p>
 
+<div class="text-center">
 <img class="w-75" src="~/img/Habitacion1.jpg">
+</div>
 
-<p> Cuánto vale la guitarra de Phoebe?</p>
+<h3> ¿Cuanto vale la guitarra de Phoebe?</h3>
 
 <button onclick="alert('¿Qué número de departamento es el que tiene el cuadro amarillo con puerta violeta?')">Pista 1</button>
 <button onclick="alert('¿Cuántas hojas tenía la carta?')">Pista 2</button>
@@ -27,14 +33,21 @@ Como no tenemos la llave del depto de las chicas, resolvemos este juego:
      <input type="hidden" name="sala" value="1" >
 <input required type="text" name="clave" class="password" placeholder="Escribí tu respuesta aquí" > 
 @if(mensaje != null){
-<p class = error> @mensaje </p>
+<p class ="error"> @mensaje </p>
 }
  <br>
 <input type="submit" class="Submit" value="Siguiente" >
 </form> 
 
-</div>
+    </scroll-container>
+
+
+
+    
+    </div>
 
 
 
 </body>
+
+</html>

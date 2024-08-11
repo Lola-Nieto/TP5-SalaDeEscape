@@ -16,6 +16,7 @@ html {
 body {
   margin-bottom: 60px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgba(16, 15, 15);
 }
 @font-face {
   font-family: "FRIENDS";
@@ -23,46 +24,93 @@ body {
 }
 
 .CentralPerk{
-  background-image: url(~/img/CentralPerk.jpg) !important ;
+  background-image: url("../img/CentralPerk.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .DeptoMonica{
-  background-image: url(~/img/DeptoMonica.jpg) !important  ;
+  background-image: url("../img/DepartamentoMonica.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .Submit{
   
-  background-color:rgb(106, 51, 158);
-  color: rgb(221, 221, 81);
+  background-color:rgba(106, 51, 158);
+  color: rgba(221, 221, 81);
   border:0;
-  border-radius: 2%;
+  border-radius: 5%;
   padding:2%;
   font-weight: bold;
+  margin: 5%;
+  text-decoration: none;
 
 
 }
-
+.error{
+  display:flex;
+  justify-content: center;
+background-color: rgb(221, 221, 81);
+opacity: 0.5;
+border-radius: 5%;
+font-weight: 600;
+}
 .Submit:hover{
+  /*No aplica margin-top sobre botones*/
+  text-decoration: none;
+  color:rgba(221, 221, 81);
+  padding: 2%;
+  margin: 5%;
+
+}
+/*a{
   text-decoration: none;
 
 }
-a{
+a:hover{
   text-decoration: none;
-}
-.JuegosMentales{
+  color:rgb(221, 221, 81);
+} 
 
-}
 .password{
   
-}
+} */
 img{
   height: 20%;
 }
 .task{
   background-color:rgb(226, 226, 226);
-  opacity: 50;
+  opacity: 0.9;
   margin: 10%;
   padding: 5%;
-  border-radius: 5%;
+  border-radius: 10%;
 
+}
+
+@font-face {
+  font-family: "textosEspeciales";
+  src: url('../fonts/Lemon Shake Shake.otf');
+}
+
+h1{
+  font-family: "textosEspeciales";
+  font-size: 90%;
+
+}
+h2{
+  font-family: "FRIENDS";
+  font-size: 100%;
+}
+h3{
+  font-family: "textosEspeciales";
+}
+.pasillo{
+  background-image: url("../img/Pasillo.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+input, button, h3, p, h1, h2{
+  opacity: 1;
 }
