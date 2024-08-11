@@ -30,11 +30,12 @@ button.accept-policy {
 }
 
 .footer {
-  position: absolute;
+  position: bottom;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+
 }
 @font-face {
   font-family: "FRIENDS";
@@ -54,3 +55,7 @@ h2{
   font-family: "FRIENDS";
   font-size: 100%;
 }
+header, footer{
+  background-color: #e5e5e5;
+  opacity: 0.98;
+} /*No funciona */

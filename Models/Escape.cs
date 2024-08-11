@@ -12,7 +12,7 @@ public static class Escape
         incognitasSalas.Add("3");
         incognitasSalas.Add("RJP");
         incognitasSalas.Add("331");
-        incognitasSalas.Add("SMELLY CAT - KEN ADAMS - JANICE - JOEY - SIETE - URSULA");
+        incognitasSalas.Add("SMELLY CAT - KEN ADAMS - JANICE - ROSS - SIETE - URSULA");
         incognitasSalas.Add("MONICA");
 
     }

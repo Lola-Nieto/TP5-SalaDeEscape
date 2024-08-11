@@ -42,19 +42,51 @@ body {
   border:0;
   border-radius: 5%;
   padding:2%;
-  font-weight: bold;
+  font-weight: 700;
   margin: 5%;
   text-decoration: none;
 
 
 }
+.pistas{
+  background-color: rgb(215, 147, 22);
+  color:rgb(15, 95, 15);
+  font-weight: 600;
+  border:0;
+  border-radius: 5%;
+  padding:1%;
+  margin: 5%;
+  text-decoration: none;
+
+
+}
+.pistas:hover{
+  font-weight: 700;
+  color:rgb(15, 95, 15);
+}
+.botón{
+  background-color:rgba(106, 51, 158);
+  color: rgba(221, 221, 81);
+  border:0;
+  border-radius: 5%;
+  padding:1%;
+  font-weight: 600;
+  margin: 5%;
+  text-decoration: none;
+
+}
+.botón:hover{
+  font-weight: 700;
+  color: rgba(221, 221, 81);
+
+}
 .error{
-  display:flex;
-  justify-content: center;
-background-color: rgb(221, 221, 81);
-opacity: 0.5;
+background-color: rgb(215, 147, 22);
 border-radius: 5%;
-font-weight: 600;
+font-weight: 700;
+font-size: 20px;
+color:rgb(15, 95, 15);
+margin:5%;
 }
 .Submit:hover{
   /*No aplica margin-top sobre botones*/
@@ -62,7 +94,24 @@ font-weight: 600;
   color:rgba(221, 221, 81);
   padding: 2%;
   margin: 5%;
+  font-weight: 800;
 
+
+}
+.contenedor, h4{
+  font-size: 18px;
+}
+
+.password{
+  background-color:rgb(153, 91, 211);
+  border-color: blueviolet;
+  border-width: thick;
+  color:rgba(221, 221, 81);
+  
+}
+.password::placeholder{
+  color:rgba(221, 221, 81);
+  
 }
 /*a{
   text-decoration: none;
@@ -84,7 +133,7 @@ img{
   opacity: 0.9;
   margin: 10%;
   padding: 5%;
-  border-radius: 10%;
+  border-radius: 15%;
 
 }
 
@@ -109,8 +158,10 @@ h3{
   background-image: url("../img/Pasillo.jpg") ;
   background-repeat: no-repeat;
   background-size: 100%;
+  /* position:fixed;    --> que solo aplique al background */
   
 }
 input, button, h3, p, h1, h2{
   opacity: 1;
 }
+/* Imagen de fondo del pasillo: que quede fija pero lo dem[as se mueva (porque con bg-size cover queda cortada y con bg-size 100% hay qeu scrollear)

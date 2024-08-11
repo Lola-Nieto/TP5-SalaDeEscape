@@ -13,37 +13,31 @@
 Ahora que ya tenemos la clave para entrar a Central Perk, vamos a hacer el café. Para obtener la clave que permite encender la máquina completamos el juego. 
 El código se crea a partir de los números que se obtienen como respuesta de cada verdadero o falso. La opción que sea falsa será la que es parte de la contraseña. 
 </p>
-<div> 
+
 <h3> PRIMERO: </h3>
 <ol>
-    <li> Cada vez que va al dentista, alguien muere  </li>
+    <li>  Cada vez que va al dentista, alguien muere  </li>
     <li>Tuvo a los trillizos de su hermano </li>
     <li>Cuidó a Ben cuando Ross estaba en el trabajo</li>
 </ol>
-
-</div>
-
-<div>
 <h3> SEGUNDO: </h3>
 <ol>
     <li> Se casó con un patinador de hielo que era gay </li>
     <li>No cree en la gravedad</li>
     <li>Trabajó como policía</li>
 </ol>
-</div>
-
-<div>
 <h3> TERCERO: </h3>
 <ol>
     <li>  Salió con un pintor profesional </li>
     <li>Creía que su mamá era una gata</li>
     <li>Tiene una hermana gemela </li>
 </ol>
-</div>
 
 
-<button onclick="alert('Para la segunda: Phoebe tuvo una discusión con Ross por esto')">Pista 1</button>
-<button onclick="alert('Para la tercera: Phoebe cree en la reencarnación')">Pista 2</button>
+ <div class="text-center">
+
+<button onclick="alert('Para la segunda: Phoebe tuvo una discusión con Ross por esto')"  class="pistas">Pista 1</button>
+<button onclick="alert('Para la tercera: Phoebe cree en la reencarnación')"  class="pistas">Pista 2</button>
 
 
 <form method="post" action='@Url.Action("Habitacion")'> 
@@ -56,6 +50,7 @@ El código se crea a partir de los números que se obtienen como respuesta de ca
 <input type="submit" class="Submit" value="Siguiente" >
 </form> 
 
+</div>
 </div>
 
 </body> 

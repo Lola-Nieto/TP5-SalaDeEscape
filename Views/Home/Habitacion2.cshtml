@@ -13,10 +13,11 @@
 Paso 2: Pudimos entrar al depto de las chicas, sabemos que por si se la olvida Rachel tiene un papel con la clave para abrir la 
 puerta de Central Perk. Sin embargo, vemos que está encriptado:
  </p>
- <h3> "La clave de la sala de Central Perk: We were on a break + How you doin'? + I wish I could but I don't want to  </h3>
+ <div class="text-center">
+  <h3> "La clave de la sala de Central Perk: We were on a break + How you doin'? + I wish I could but I don't want to  </h3>
 
-<button onclick="alert('La clave se compone por la inicial de las personas que dicen las frases')">Pista 1</button>
-<button onclick="alert('Escribirla sin guiones ni espacios intermedios')">Pista 2</button>
+<button onclick="alert('La clave se compone por la inicial de las personas que dicen las frases')"  class="pistas">Pista 1</button>
+<button onclick="alert('Escribirla sin guiones ni espacios intermedios')"  class="pistas">Pista 2</button>
 
 
 <form method="post" action='@Url.Action("Habitacion")'> 
@@ -28,6 +29,8 @@ puerta de Central Perk. Sin embargo, vemos que está encriptado:
  <br>
 <input type="submit" class="Submit" value="Siguiente" >
 </form> 
+ </div>
+
 </div>
 
 

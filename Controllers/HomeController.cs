@@ -53,7 +53,7 @@ public IActionResult Comenzar()
          
        
     } else{
-        ViewBag.Error = "La respuesta es incorrecta";
+        ViewBag.Error = "LA RESPUESTA ES INCORRECTA";
         return View("Habitacion" + estadoJuego);
     }
     }
