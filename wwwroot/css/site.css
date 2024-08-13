@@ -47,8 +47,14 @@ body {
   font-weight: 700;
   margin: 5%;
   text-decoration: none;
+  margin-top:10%;
 
 
+}
+.Links{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 .pistas{
   background-color: rgb(215, 147, 22);
@@ -74,6 +80,7 @@ body {
   padding:1%;
   font-weight: 600;
   margin: 5%;
+  margin-top:10%;
   text-decoration: none;
 
 }
@@ -83,11 +90,11 @@ body {
 
 }
 .error{
-background-color: rgb(215, 147, 22);
+background-color: rgb(187, 92, 92);
 border-radius: 5%;
 font-weight: 700;
 font-size: 20px;
-color:rgb(15, 95, 15);
+color:rgb(255, 255, 255);
 margin:5%;
 }
 .Submit:hover{
@@ -97,36 +104,40 @@ margin:5%;
   padding: 2%;
   margin: 5%;
   font-weight: 800;
-
+  margin-top:10%;
 
 }
 .contenedor, h4{
   font-size: 18px;
 }
+.btn-primary {
+  
+  background-color: rgb(215, 147, 22) !important;
+  color:rgb(15, 95, 15) !important;
+  font-weight: 600 !important;
+  border:0 !important;
+  border-radius: 5% !important;
+  padding:1% !important;
+  margin: 5%!important;
+  text-decoration: none;
 
+
+}
 .password{
   background-color:rgb(153, 91, 211);
   border-color: blueviolet;
   border-width: thick;
   color:rgba(221, 221, 81);
+  margin-top: 5%;
   
+
 }
 .password::placeholder{
   color:rgba(221, 221, 81);
+
   
 }
-/*a{
-  text-decoration: none;
 
-}
-a:hover{
-  text-decoration: none;
-  color:rgb(221, 221, 81);
-} 
-
-.password{
-  
-} */
 img{
   height: 20%;
 }
@@ -144,26 +155,23 @@ img{
 }
 
 h1{
-  font-family: "textosEspeciales";
+  font-family: "textosEspeciales" !important;
   font-size: 90%;
 
 }
 h2{
-  font-family: "FRIENDS";
+  font-family: "FRIENDS" !important;
   font-size: 100%;
 }
 h3{
-  font-family: "textosEspeciales";
+  font-family: "textosEspeciales" !important;
+  margin-top: 5%;
 }
 .pasillo{
   background-image: url("../img/Pasillo.jpg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
-  /* position:fixed;    --> que solo aplique al background */
   
 }
-input, button, h3, p, h1, h2{
-  opacity: 1;
-}
-/* Imagen de fondo del pasillo: que quede fija pero lo dem[as se mueva (porque con bg-size cover queda cortada y con bg-size 100% hay qeu scrollear)
+

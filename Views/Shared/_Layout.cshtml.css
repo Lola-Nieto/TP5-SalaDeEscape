@@ -23,15 +23,12 @@ a.navbar-brand {
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
-.container{
- background-color: #e5e5e5;
- padding:100px;
-}
-
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
+
+
 
 .footer {
   position: bottom;
@@ -51,12 +48,12 @@ button.accept-policy {
 }
 
 h1{
-  font-family: "textosEspeciales";
+  font-family: "textosEspeciales" !important;
   font-size: 90%;
 
 }
 h2{
-  font-family: "FRIENDS";
+  font-family: "FRIENDS" !important;
   font-size: 100%;
 }
 header, footer{

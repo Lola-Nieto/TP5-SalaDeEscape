@@ -24,8 +24,13 @@ public class HomeController : Controller
 public IActionResult Comenzar()
     {
         int estadoJuego = Escape.GetEstadoJuego();
-        return View("Habitacion" + estadoJuego);
-
+        string view;
+        if(estadoJuego != 6){
+        view = "Habitacion" + estadoJuego;
+        } else{
+        view = "Victoria";
+        }
+        return View(view);
     }
     public IActionResult Tutorial()
     {
