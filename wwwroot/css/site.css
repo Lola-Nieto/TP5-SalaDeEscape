@@ -27,12 +27,14 @@ body {
   background-image: url("../img/CentralPerk.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
 }
 .DeptoMonica{
   background-image: url("../img/DepartamentoMonica.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
 }
 .Submit{
@@ -129,8 +131,7 @@ img{
   height: 20%;
 }
 .task{
-  background-color:rgb(226, 226, 226);
-  opacity: 0.9;
+  background-color:rgba(226, 226, 226, 0.9);
   margin: 10%;
   padding: 5%;
   border-radius: 15%;
@@ -158,6 +159,7 @@ h3{
   background-image: url("../img/Pasillo.jpg") ;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
   /* position:fixed;    --> que solo aplique al background */
   
 }
